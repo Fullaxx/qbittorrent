@@ -14,7 +14,7 @@ docker build -t="fullaxx/qbittorrent" github.com/Fullaxx/qbittorrent
 ```
 
 ## Volume Options
-Data: All torrents data will use this volume \
+Data: All torrent data will use this volume \
 Drop your torrents/magnets in /srv/docker/qbt/data/autoload/ \
 Also, your downloads will appear in /srv/docker/qbt/data/dl
 ```
