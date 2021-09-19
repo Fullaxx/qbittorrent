@@ -1,6 +1,7 @@
 #!/bin/bash
 
 mkdir -p /data/dl
+mkdir -p /data/autoload
 mkdir -p /data/logs
 mkdir -p ${HOME}/.config/qBittorrent
 
