@@ -22,4 +22,7 @@ else
   hsetroot -solid "#333333"
 fi
 
+# Add Multicast route via eth0
+ip route add 224.0.0.0/4 dev eth0
+
 /app/scripts/qbittorrent.sh &
