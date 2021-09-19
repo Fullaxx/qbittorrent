@@ -12,6 +12,7 @@ ENV LANG C
 # Install prerequisites and clean up
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+      bash-completion \
       openvpn \
       qbittorrent \
       tree && \
