@@ -112,6 +112,7 @@ Thanks to [jlesage](https://hub.docker.com/r/jlesage/firefox/#increasing-shared-
 Examples of how to keep your configuration persistant
 ```
 -v /srv/docker/qbt/home/qbt:/root/.config/qBittorrent
+-v /srv/docker/qbt/home/local:/root/.local
 -v /srv/docker/qbt/home/mozilla:/root/.mozilla
 ```
 
