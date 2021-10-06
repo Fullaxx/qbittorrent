@@ -4,8 +4,8 @@
 [fullaxx/ubuntu-desktop](https://hub.docker.com/r/fullaxx/ubuntu-desktop)
 
 ## Software
-[qBittorrent](https://www.qbittorrent.org/) - A QT-based bittorrent application \
-[openvpn](https://openvpn.net/)
+* [qBittorrent](https://www.qbittorrent.org/) - A QT-based bittorrent application
+* [openvpn](https://openvpn.net/)
 
 ## Get the image from Docker Hub or build it locally
 ```
