@@ -13,6 +13,7 @@ ENV LANG C
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
       bash-completion \
+      firefox \
       openvpn \
       qbittorrent \
       tree && \
