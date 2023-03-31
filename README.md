@@ -7,10 +7,9 @@
 * [qBittorrent](https://www.qbittorrent.org/) - A QT-based bittorrent application
 * [openvpn](https://openvpn.net/)
 
-## Get the image from Docker Hub or build it locally
+## Build the image locally
 ```
-docker pull fullaxx/qbittorrent
-docker build -t="fullaxx/qbittorrent" github.com/Fullaxx/qbittorrent
+docker build -t="fullaxx/qbittorrent" github.com/Fullaxx/qbittorrent#withfirefox
 ```
 
 ## Volume Options
