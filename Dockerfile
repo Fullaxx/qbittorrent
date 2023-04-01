@@ -13,12 +13,16 @@ ENV LANG C
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
       bash-completion \
-      firefox \
       openvpn \
       qbittorrent \
       tree && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp/*
+
+# ------------------------------------------------------------------------------
+# Install firefox
+RUN /app/scripts/prepare_firefox_ppa.sh && \
+    apt-get install -y firefox
 
 # ------------------------------------------------------------------------------
 # Provide default QBitTorrent config
