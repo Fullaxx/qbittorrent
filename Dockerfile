@@ -1,18 +1,21 @@
 # ------------------------------------------------------------------------------
 # Pull base image
 FROM fullaxx/ubuntu-desktop
-MAINTAINER Brett Kuskie <fullaxx@gmail.com>
+LABEL author="Brett Kuskie <fullaxx@gmail.com>"
 
 # ------------------------------------------------------------------------------
 # Set environment variables
-ENV DEBIAN_FRONTEND noninteractive
-ENV LANG C
+ENV DEBIAN_FRONTEND=noninteractive
+ENV LANG=C
 
 # ------------------------------------------------------------------------------
 # Install prerequisites and clean up
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
       bash-completion \
+      iproute2 \
+      iputils-ping \
+      mtr-tiny \
       openvpn \
       qbittorrent \
       tree && \
