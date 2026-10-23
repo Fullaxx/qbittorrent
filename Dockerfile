@@ -16,6 +16,7 @@ RUN apt-get update && \
       iproute2 \
       iputils-ping \
       mtr-tiny \
+      openssh-client \
       openvpn \
       qbittorrent \
       tree && \
