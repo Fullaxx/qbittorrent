@@ -6,7 +6,6 @@ LABEL author="Brett Kuskie <fullaxx@gmail.com>"
 # ------------------------------------------------------------------------------
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
-ENV LANG=C
 
 # ------------------------------------------------------------------------------
 # Install prerequisites and clean up
