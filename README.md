@@ -1,3 +1,7 @@
+> [!WARNING]
+> **This project is retired. Its replacement is <https://github.com/Fullaxx/ubuntu-desktop-xfce-qbittorrent>** \
+> What changes when you switch: [Coming from fullaxx/qbittorrent](https://github.com/Fullaxx/ubuntu-desktop-xfce-qbittorrent#coming-from-fullaxxqbittorrent)
+
 # An Ubuntu docker image running qBittorrent with openvpn
 
 ## Base Docker Image
